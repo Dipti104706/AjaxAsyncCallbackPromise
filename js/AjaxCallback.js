@@ -1,3 +1,4 @@
+//Uc2 
 let XMLHttpRequest = require('xmlhttprequest').XMLHttpRequest; //Using Xmlhttp module to make ajax call
 function showTime()
 {
@@ -16,9 +17,9 @@ function makeAJAXCall(methodType,url,callBack,async=true,data=null) //data is nu
         if(xhr.readyState===4)
         {
             console.log("State Change Called... Ready State: "+xhr.readyState+" Status: "+xhr.status);
-            if(xhr.status===200||xhr.status===201)
+            if(xhr.status===200||xhr.status===201)//if it is in 200 series then it is successed,,200-data retrieved, 201-Data created
             {
-                callBack(xhr.responseText); //callback happen only when it is success 
+                callBack(xhr.responseText); //Responsetext-is  hold the value send by the server//callback happen only when it is success 
             }
             else if(xhr.status>=400)
             {
