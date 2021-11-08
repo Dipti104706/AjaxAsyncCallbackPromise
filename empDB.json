@@ -6,14 +6,14 @@
       "salary": "50000"
     },
     {
-      "id": 2,
-      "first_name": "Harish",
-      "salary": "40000"
-    },
-    {
       "name": "Dipti",
       "salary": "35000",
       "id": 3
+    },
+    {
+      "name": "subhalaxmi",
+      "salary": "50000",
+      "id": 4
     }
   ]
 }
